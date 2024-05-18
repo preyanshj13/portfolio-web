@@ -118,7 +118,7 @@ function Skills() {
       .transition()
       .duration(750)
       .attr("height", (d) => h - yScale(d.strength));
-  }, [data]);
+  }, [data, width]);
 
   return (
     <>
