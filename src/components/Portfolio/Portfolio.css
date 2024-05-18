@@ -1,0 +1,62 @@
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 2% 5%; */
+}
+
+.card-body{
+    font-family: "Cormorant Garamond", serif;
+}
+
+.card-title{
+    font-size: 1.8rem;
+    text-align: center;
+    /* font-family: "Cormorant Garamond", serif; */
+    font-weight: 700;
+    /* =: 500; */
+    /* font-style: normal; */
+}
+
+.card-text{
+    text-align: justify;
+    margin-bottom: 2%;
+    font-size: 1.11rem;
+    /* font-family: "Cormorant Garamond", serif; */
+    font-weight: 550;
+    font-style: normal;
+}
+
+.projectCard{
+    /* display: flex; */
+    background-color: rgba(15, 16, 17, 0.34);
+    width: 18rem;
+    margin: 4% 0;
+    color: aliceblue;
+}
+
+
+.linkBtn{
+    font-size: 1rem;
+    font-weight: 700;
+    /* align-self: baseline; */
+    /* align-items: baseline; */
+    /* align-content: baseline; */
+    /* text-align: left; */
+}
+
+@media screen and (max-width: 768px){
+    .card-container{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-content: center;
+        margin: 2% auto;
+    }
+
+    .card{
+        align-self: center;
+        /* fill: aqua; */
+        /* background-color: aqua; */
+        /* margin: 4% 0; */
+        /* align-content: center; */
+    }
+}

@@ -1,0 +1,55 @@
+.contactForm {
+  width: 30%;
+  /* background-color: aliceblue; */
+  /* background-image: url('../../images/contact.jpeg'); */
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 20px;
+  border-radius: 10px;
+  /* font-family: monospace; */
+  font-family: "Sedan SC", serif;
+  /* font-family: "Cormorant Garamond", serif; */
+  /* font-weight: 700; */
+  font-size: larger;
+  color: rgba(240, 248, 255, 0.6);
+}
+
+.bg {
+  background-image: url('../../images/contact1.jpeg');
+  /* width: min-content; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  box-shadow: 0px 0px 10px 10px rgba(35, 40, 75, 0.952) inset;
+}
+
+/* .contactForm input{
+    background-color: rgba(240, 248, 255, 0.451);
+} */
+
+.contactHead {
+  font-size: 3rem;
+  /* font-family: cursive; */
+  display: flex;
+  justify-content: center;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn {
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  /* padding-left: 7% ;
+    padding-right:7% ;
+    padding-top: 2%;
+    padding-bottom: 2%; */
+  padding: 2% 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .contactForm{
+    width: 80%;
+  }
+}

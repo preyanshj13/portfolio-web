@@ -1,0 +1,161 @@
+.containers {
+  display: flex;
+  /* background-image: linear-gradient(to bottom right,#2f818d, #133338); */
+}
+
+.col1 {
+  width: 45%;
+  /* height: 50rem; */
+}
+
+.myImage {
+  width: 55%;
+  opacity: 80%;
+  border-top: 1px solid black;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+}
+
+.col2 {
+  width: 50%;
+  padding-left: 0%;
+  padding-top: 8%;
+}
+
+.hello,
+.name,
+.web {
+  color: aliceblue;
+  /* font-size: 2.5rem; */
+  line-height: 180%;
+  word-spacing: 0.2rem;
+  /* text-align: left; */
+  /* margin-left: 20%; */
+}
+
+.hello {
+  font-size: 3rem;
+  /* font-family: monospace; */
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 3px;
+}
+
+.name {
+  font-size: 3.5rem;
+  /* font-weight: 600; */
+  font-family: fantasy;
+}
+
+.web {
+  font-size: 2.5rem;
+  font-weight: 100;
+  font-family: monospace;
+  margin-bottom: 5%;
+}
+
+.linkedin,
+.github,
+.hackerrank {
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.mail {
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  top: 79%;
+  left: 50.5%;
+  /* transform: translateX(-50%); */
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  /* white-space: nowrap; */
+  font-size: 11px;
+  visibility: visible;
+  /* transition: all 2s ease-in-out; */
+  /* opacity: 1; */
+  /* transition: opacity 10s; */
+  /* opacity: 1; */
+}
+
+.back {
+  background-image: url("../../images/abourBackground.jpeg");
+  padding-top: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 8px 8px rgba(35, 40, 75, 0.952) inset;
+}
+
+.aboutMeHead {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  /* font-family: monospace; */
+  color: rgb(12, 47, 78);
+  font-family: "Sedan SC", serif;
+  font-weight: 600;
+  /* font-weight: 900; */
+  /* font: xx-large; */
+  /* font-style: normal; */
+}
+
+.aboutMe {
+  color: azure;
+  text-align: justify;
+  font-family: monospace;
+  /* font-weight: 700; */
+}
+
+.aboutCard {
+  width: 50%;
+  background-color: rgba(15, 16, 17, 0.34);
+  color: azure;
+}
+
+.card-text{
+  font-weight: 500;
+}
+
+/* .mailto:hover .text {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 10s;
+} */
+
+@media only screen and (max-width: 768px) {
+  .containers {
+    flex-direction: column;
+  }
+
+  .myImage {
+    width: 60%;
+  }
+
+  .hello{
+    font-size: 2.4rem;
+  }
+
+  .col1,
+  .col2 {
+    width: 100%;
+  }
+
+  .col2 {
+    text-align: center;
+  }
+
+  .aboutCard {
+    width: 95%;
+  }
+
+  .aboutMeHead {
+    color: white;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,43 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+:root{
+  --gradient: linear-gradient(
+    45deg,
+    #c8e0e5,
+    #5faac0,
+    #2f818d,
+    #677456,
+    #273c1b,
+    #81ae9c,
+    #467e6d,
+    #1b4d46
+  );
+}
+
+body{
+  /* background-color: rgba(35, 40, 75, 0.952); */
+  background-image: var(--gradient);
+  background-size: 400%;
+  animation: bg-animation 20s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  100% {background-position: right}
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

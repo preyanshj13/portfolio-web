@@ -1,0 +1,129 @@
+.experience {
+  background-image: url("../../images/work3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 5px 5px white inset;
+  /* opacity: 50%; */
+}
+
+.experienceHead{
+  color: rgb(60, 60, 80);
+}
+
+.mainContainer {
+  margin: 5% 0;
+}
+
+.point {
+  /* align-self: center; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px; /*Adjust as needed*/
+}
+
+.line {
+  position: absolute;
+  z-index: -1;
+  /* margin-left: 50%; */
+}
+
+.texts {
+  color: black;
+  margin-right: 2%;
+}
+
+.paraL {
+  width: 35%;
+  color: white;
+  font-family: monospace;
+  /* margin-left: 14%; */
+  margin: 2% 0 2% 10%;
+  /* background-color: rgba(95, 158, 160, 0.7); */
+  background-color: rgba(35, 40, 75, 0.75);
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.paraR {
+  width: 35%;
+  color: white;
+  font-family: monospace;
+  /* margin-left: 65%; */
+  background-color: rgba(35, 40, 75, 0.75);
+  padding: 2%;
+  margin: 2% 0 2% 57%;
+  border-radius: 10px;
+}
+
+.companyHead {
+  font-size: x-large;
+  /* font-weight: 600; */
+  font-family: "Acme", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(171, 177, 222);
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0;
+  font-family: "Acme", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.role {
+  /* font-weight: 400; */
+  font-weight: bolder;
+  /* font-style: italic; */
+}
+
+.date {
+  font-size: medium;
+  align-self: center;
+}
+
+/* .companyDate {
+  font-size: large;
+  font-weight: 400;
+} */
+
+.flex {
+  display: flex;
+}
+
+.para {
+  text-align: justify;
+  font-family: "Acme", sans-serif;
+  letter-spacing: 1.4px;
+  /* font-weight: 700; */
+  font-style: normal;
+}
+
+
+/* .dateL{
+    text-align: left;
+    font-weight: 400;
+    font-weight: bolder;
+    font-style: italic;
+} */
+
+.svg {
+  /* float: right; */
+  color: red;
+  stroke: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .paraL {
+    width: 65%;
+    margin: 2% 0 2% 5%;
+  }
+
+  .paraR {
+    width: 65%;
+    margin: 2% 5% 2% 30%;
+  }
+}
