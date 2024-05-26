@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg Pb-3">
+    <nav className="navbar navbar-expand-lg pb-3">
       <div className="container-fluid">
         {/* <a className="navbar-brand" href="#">
           Navbar
@@ -26,7 +26,7 @@ function Navbar() {
               <NavLink
                 className="nav-link"
                 aria-current="page"
-                to="/"
+                to="/portfolio-web"
                 style={({ isActive, isPending, isTransitioning }) => {
                   return {
                     fontWeight: isActive ? "bold" : "",
@@ -41,7 +41,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 className="nav-link"
-                to="/skills"
+                to="/portfolio-web/skills"
                 style={({ isActive, isPending, isTransitioning }) => {
                   return {
                     fontWeight: isActive ? "bold" : "",
@@ -56,7 +56,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 className="nav-link na"
-                to="/experience"
+                to="/portfolio-web/experience"
                 style={({ isActive, isPending, isTransitioning }) => {
                   return {
                     fontWeight: isActive ? "bold" : "",
@@ -71,7 +71,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 className="nav-link"
-                to="/portfolio"
+                to="/portfolio-web/portfolio"
                 style={({ isActive, isPending, isTransitioning }) => {
                   return {
                     fontWeight: isActive ? "bold" : "",
@@ -86,7 +86,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 className="nav-link"
-                to="/contact"
+                to="/portfolio-web/contact"
                 style={({ isActive, isPending, isTransitioning }) => {
                   return {
                     fontWeight: isActive ? "bold" : "",

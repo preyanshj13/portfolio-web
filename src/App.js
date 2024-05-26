@@ -13,15 +13,14 @@ function App() {
     <div className="App">
       {/* <div className='text-9xl font-bold'>Hello</div> */}
       <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/experience' element={<Experience />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/skills' element={<Skills />} />
-        <Route path='/portfolio' element={<Portfolio />} />
-      </Routes>
-
+        <Navbar />
+        <Routes>
+          <Route path="/portfolio-web" element={<Home />} />
+          <Route path="/portfolio-web/experience" element={<Experience />} />
+          <Route path="/portfolio-web/contact" element={<Contact />} />
+          <Route path="/portfolio-web/skills" element={<Skills />} />
+          <Route path="/portfolio-web/portfolio" element={<Portfolio />} />
+        </Routes>
       </BrowserRouter>
       {/* <Home /> */}
       {/* <Experience /> */}
